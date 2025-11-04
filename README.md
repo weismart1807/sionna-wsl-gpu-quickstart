@@ -38,10 +38,11 @@ python -V
 pip install -U pip
 ```
 
-### 3) TensorFlow GPU (pip wheel bundles CUDA/cuDNN) + Sionna
+### 3) TensorFlow GPU (pip wheel bundles CUDA/cuDNN) + Sionna + mitsuba
 ```bash
 pip install "tensorflow==2.18.1"
 pip install "sionna==1.2.1"
+pip install mitsuba
 ```
 
 ### 4) Quick GPU test (should list GPU:0 and run matmul on GPU)
